@@ -1,0 +1,52 @@
+{
+    "author": "diongonano@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "ems_heart_rate",
+    "pebble": {
+        "capabilities": [
+            "health"
+        ],
+        "displayName": "EMS_Heart_Rate",
+        "enableMultiJS": true,
+        "messageKeys": {
+            "test": 0
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/perfect-dos-vga.ttf",
+                    "name": "FONT_PERFECT_DOS_20",
+                    "targetPlatforms": [
+                        "diorite"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/perfect-dos-vga.ttf",
+                    "name": "FONT_PERFECT_DOS_48",
+                    "targetPlatforms": [
+                        "diorite"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "file": "images/background.png",
+                    "name": "IMAGE_BACKGROUND",
+                    "targetPlatforms": null,
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "diorite"
+        ],
+        "uuid": "42952b3b-c24e-460d-85d2-332e60771aea",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
